@@ -6,12 +6,13 @@
   },
   // 控制资源管理器中的文件嵌套
   "explorer.fileNesting.patterns": {
-    "package.json": "pnpm-lock.yaml",
+    "package.json": "pnpm-lock.yaml, tiny.config.ts",
     "tsconfig.json": "",
-    "next.config.*": "next-env.d.ts, postcss.config.js, tailwind.config.js"
+    "next.config.*": "next-env.d.ts, tsconfig.json, postcss.config.js, tailwind.config.js"
   },
   "cSpell.words": [
     "Tauri",
+    "tinypng",
     "unoptimized"
   ]
 }

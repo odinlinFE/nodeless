@@ -1,0 +1,11 @@
+// instead of `@tailwind base;`
+@import 'tailwindcss/base';
+@import "./custom-base.scss";
+
+// instead of `@tailwind components;`
+@import 'tailwindcss/components';
+@import "./custom-components.scss";
+
+// instead of `@tailwind utilities;`
+@import 'tailwindcss/utilities';
+@import "./custom-utilities.scss";

@@ -1,6 +1,7 @@
 /**
  * @type {import('next').NextConfig}
  * @uri [内置 Sass 支持](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)
+ * @uri [`output: 'export'`](https://nextjs.org/docs/advanced-features/static-html-export)
  */
 const nextConfig = {
   /* 静态导出 - 自 Next.js13.3 以来，`next export`命令已被弃用，取而代之的是`output: 'export'`配置 */
