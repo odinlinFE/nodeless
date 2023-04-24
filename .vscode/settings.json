@@ -1,0 +1,12 @@
+{
+  // 控制资源管理器中的文件嵌套
+  "explorer.fileNesting.patterns": {
+    "package.json": "pnpm-lock.yaml",
+    "tsconfig.json": "",
+    "next.config.*": "next-env.d.ts, postcss.config.js, tailwind.config.js"
+  },
+  "cSpell.words": [
+    "Tauri",
+    "unoptimized"
+  ]
+}
