@@ -22,5 +22,18 @@ $ npx create-next-app --example with-tailwindcss-emotion with-tailwindcss-emotio
 $ git clone https://github.com/vercel/next.js.git next-official-repo --depth=1
 ```
 
+<br />
 
+### 创建 Rust 项目
+
+```bash
+# 安装 Tauri CLI (可以通过 node包管理器 或 cargo 安装)
+$ cargo install tauri-cli
+$ cargo tauri init
+$ cargo tauri dev
+$ cargo tauri build
+
+# 使用 @tauri-apps/api 库来调用 rust 命令
+$ pnpm add @tauri-apps/api
+```
 
