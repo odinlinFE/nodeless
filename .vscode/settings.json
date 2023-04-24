@@ -1,4 +1,9 @@
 {
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   // 控制资源管理器中的文件嵌套
   "explorer.fileNesting.patterns": {
     "package.json": "pnpm-lock.yaml",
