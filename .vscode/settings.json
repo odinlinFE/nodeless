@@ -10,6 +10,10 @@
     "tsconfig.json": "",
     "next.config.*": "next-env.d.ts, tsconfig.json, postcss.config.js, tailwind.config.js"
   },
+  "rust-analyzer.linkedProjects": [
+    "./src-tauri/Cargo.toml"
+  ],
+  "rust-analyzer.showUnlinkedFileNotification": false,
   "cSpell.words": [
     "Tauri",
     "tinypng",

@@ -15,9 +15,21 @@ rust-version = "1.59"
 tauri-build = { version = "1.2.1", features = [] }
 
 [dependencies]
+# 序列化
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
+# tauri
 tauri = { version = "1.2.4", features = [] }
+# 错误处理库
+anyhow = "1.0.70"
+# 时间库
+chrono = "0.4"
+# 类似于lodash工具方法
+itertools = "0.10.5"
+
+[dev-dependencies]
+# 测试库
+proptest = "1.0.0"
 
 [features]
 # by default Tauri runs in production mode
