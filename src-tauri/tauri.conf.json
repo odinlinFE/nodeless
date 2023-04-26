@@ -11,7 +11,65 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "all": false,
+      "shell": {
+        "all": true,
+        "execute": true,
+        "sidecar": true,
+        "open": true,
+        "scope": [
+          {
+            "name": "echo",
+            "cmd": "echo",
+            "args": [
+              {
+                "validator": "\\S+"
+              }
+            ]
+          },
+          {
+            "name": "git-log",
+            "cmd": "git",
+            "args": [
+              "log",
+              {
+                "validator": "\\S+"
+              }
+            ]
+          },
+          {
+            "name": "fnm-version",
+            "cmd": "fnm",
+            "args": [
+              "--version"
+            ]
+          },
+          {
+            "name": "node-version",
+            "cmd": "node",
+            "args": [
+              "--version"
+            ]
+          },
+          {
+            "name": "npm-version",
+            "cmd": "npm",
+            "args": [
+              "--version"
+            ]
+          },
+          {
+            "name": "npm-run",
+            "cmd": "npm",
+            "args": [
+              "run",
+              {
+                "validator": "\\S+"
+              }
+            ]
+          }
+        ]
+      }
     },
     "bundle": {
       "active": true,

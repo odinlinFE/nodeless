@@ -9,6 +9,7 @@ specifiers:
   '@types/react': 18.0.38
   '@types/react-dom': 18.0.11
   autoprefixer: 10.4.14
+  await-to-js: ^3.0.0
   classnames: ^2.3.2
   easy-tinypng-cli: ^0.4.1
   eslint: ^8.39.0
@@ -26,6 +27,7 @@ specifiers:
 dependencies:
   '@headlessui/react': 1.7.14_biqbaboplfbrettd7655fr4n2y
   '@tauri-apps/api': 1.2.0
+  await-to-js: 3.0.0
   classnames: 2.3.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -845,6 +847,11 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /await-to-js/3.0.0:
+    resolution: {integrity: sha512-zJAaP9zxTcvTHRlejau3ZOY4V7SRpiByf3/dxx2uyKxxor19tpmpV2QRsTKikckwhaPmr2dVpxxMr7jOCYVp5g==}
+    engines: {node: '>=6.0.0'}
+    dev: false
 
   /axe-core/4.7.0:
     resolution: {integrity: sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==}

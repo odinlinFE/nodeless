@@ -19,7 +19,7 @@ tauri-build = { version = "1.2.1", features = [] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 # tauri
-tauri = { version = "1.2.4", features = [] }
+tauri = { version = "1.2.4", features = ["shell-all"] }
 # 错误处理库
 anyhow = "1.0.70"
 # 时间库
